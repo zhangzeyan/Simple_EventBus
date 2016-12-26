@@ -5,14 +5,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <Button
         android:id="@+id/btn_try"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="btn_bty"/>
-    <TextView
-        android:id="@+id/tv"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
+        android:text="第一个"/>
 
+    <Button
+        android:id="@+id/btn_try1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第二个"/>
 </LinearLayout>

@@ -8,10 +8,10 @@ import android.widget.Button;
 import org.greenrobot.eventbus.EventBus;
 
 /**
- * Created by zhangzeyan on 16/12/26.
+ * Created by zhangzeyan on 16/12/23.
  */
 
-public class SecondActivity extends Activity {
+public class FirstActivity extends Activity {
 
     private Button btn_FirstEvent;
 
@@ -28,7 +28,7 @@ public class SecondActivity extends Activity {
             @Override
             public void onClick(View v) {
                 EventBus.getDefault().post(
-                        new SecondEvent("第二个"));
+                        new FirstEvent("第一个"));
             }
         });
     }
